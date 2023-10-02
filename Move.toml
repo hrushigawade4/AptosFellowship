@@ -1,0 +1,17 @@
+[package]
+name = "debug"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyAddr = '0xba2573ce30ba0faaef072b6b1833ddbb7e44d7558c9960c95d12d3e6c8b041a5'
+Std = "0x1"
+aptos_std = "0x1"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
