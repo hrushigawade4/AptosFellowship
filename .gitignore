@@ -1,5 +1,7 @@
 Move.toml
 
-/build/
+/build/debug
+
+/build/config.yaml
 
 *.aptos
