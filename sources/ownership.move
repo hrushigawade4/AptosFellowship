@@ -4,7 +4,7 @@
 //scope : copy - working fine, move - move the variable so not available
 module MyAddr::owner{
     
-    use aptos_std::debug;
+    
 
     public fun printex(a:u8):u8{
         a
