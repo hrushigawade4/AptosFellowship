@@ -11,10 +11,10 @@ compiled_package_info:
     core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
-  source_digest: 5E5F811A51633CD130184341A43BEDCBA6A54726374E1945BB6384365C05FEE0
+  source_digest: 25D5935145A1E0A5F5064A78F7E74E8261862210F89D440940190B9648386C97
   build_flags:
-    dev_mode: true
-    test_mode: true
+    dev_mode: false
+    test_mode: false
     generate_docs: false
     generate_abis: false
     install_dir: ~
@@ -38,7 +38,7 @@ compiled_package_info:
         - test_only
         - verify_only
         - view
-      skip_attribute_checks: true
+      skip_attribute_checks: false
       compiler_version: ~
 dependencies:
   - AptosFramework
